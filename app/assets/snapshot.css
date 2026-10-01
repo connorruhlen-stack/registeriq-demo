@@ -1,0 +1,14 @@
+.snapshot-note {
+  margin: 0;
+  padding: 0.5rem 16px;
+  font-size: 0.9375rem;
+  color: #6e6252;
+  background: #efe8d8;
+  border-bottom: 1px solid #d9d0bd;
+}
+.snapshot-note a {
+  color: #3e5a73;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}

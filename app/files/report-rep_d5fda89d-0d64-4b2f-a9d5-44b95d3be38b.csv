@@ -1,0 +1,4 @@
+"item","severity","detector","title","description","estimated_impact"
+"Kettle chips, 5 oz","high","inv.implausible_magnitude","An unusually large entry for Kettle chips, 5 oz","Kettle chips, 5 oz had a 28-unit adjustment on Sep 26, 2026, far above its usual 1. Check for a typo, such as an extra digit or a misplaced decimal.","676.48"
+"Kettle chips, 5 oz","low","inv.unexplained_adjustment","A manual adjustment with no note","A manual adjustment of −28 units was made to Kettle chips, 5 oz on Sep 26, 2026 with no reason noted. Adding a note now makes year-end stock counts much easier.","676.48"
+"Paper towels, 6 rolls","low","inv.reconciliation_drift","The numbers for Paper towels, 6 rolls don’t add up","About 9 units of Paper towels, 6 rolls are unaccounted for this period after sales, deliveries and adjustments. A missed entry or a miscount is the usual cause. Recount it, then check the entries since the last count.","68.94"

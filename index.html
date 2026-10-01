@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Everything this page uses comes from this site. No scripts run. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'none'; img-src 'self' data:; media-src 'self'; style-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <title>RegisterIQ demo</title>
+    <meta
+      name="description"
+      content="RegisterIQ reads a shop’s till and stock records and points out what doesn’t add up. A video, screenshots and a click-through demo store."
+    />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="preload" href="fonts/Junicode-Roman.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/Junicode-Italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="overview.css" />
+  </head>
+  <body>
+    <header class="wrap running">
+      <a class="wordmark" href="./">RegisterIQ</a>
+      <a class="running-link" href="app/dashboard.html">Open the demo store</a>
+      <a class="running-link" href="#contact">Contact</a>
+    </header>
+
+    <main class="wrap book">
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">
+          RegisterIQ reads a shop’s till and stock records and points out what doesn’t add up.
+        </h1>
+        <p class="lede">
+          This page shows the app as it runs today, on a sample shop called Hillside Market
+          with a few months of made-up sales and stock entries.
+        </p>
+        <div class="hero-actions">
+          <a class="word-link" href="app/dashboard.html">Open the demo store</a>
+        </div>
+      </section>
+
+      <section class="section" id="video" aria-labelledby="video-title">
+        <h2 id="video-title">The video</h2>
+        <p class="section-intro">About 35 seconds, with captions and no sound.</p>
+        <figure class="wide shot">
+          <video
+            controls
+            preload="metadata"
+            poster="screenshots/desktop-dashboard.png"
+            src="video/registeriq-demo.webm"
+          >
+            <a href="video/registeriq-demo.webm">Download the video</a>
+          </video>
+        </figure>
+      </section>
+
+      <section class="section" aria-labelledby="tour-title">
+        <h2 id="tour-title">Around the app</h2>
+        <p class="section-intro">
+          Each picture opens full size. The demo store has every page shown here, and you can
+          click through it.
+        </p>
+
+        <div class="exhibit">
+          <a class="shot" href="screenshots/desktop-dashboard.png">
+            <img
+              src="screenshots/desktop-dashboard.png"
+              width="1280"
+              height="860"
+              alt="The dashboard: a short summary of what stood out this week, with items to review."
+            />
+          </a>
+          <div class="exhibit-note">
+            <p>The dashboard says what stood out at the register this week, in plain words.</p>
+          </div>
+        </div>
+
+        <div class="exhibit">
+          <a class="shot" href="screenshots/desktop-finding.png">
+            <img
+              src="screenshots/desktop-finding.png"
+              width="1280"
+              height="860"
+              alt="A finding: what was noticed, the next step in the margin, and the transactions behind it."
+            />
+          </a>
+          <div class="exhibit-note">
+            <p>Each finding shows the transactions behind it. The next step is in the margin.</p>
+            <p>The owner marks it resolved or dismisses it, with a note for the books.</p>
+          </div>
+        </div>
+
+        <div class="exhibit">
+          <a class="shot" href="screenshots/desktop-item.png">
+            <img
+              src="screenshots/desktop-item.png"
+              width="1280"
+              height="860"
+              alt="An inventory item: what came in and went out, and the stock entries behind it."
+            />
+          </a>
+          <div class="exhibit-note">
+            <p>Stock entries are checked too, like a delivery typed in wrong.</p>
+          </div>
+        </div>
+
+        <div class="exhibit">
+          <a class="shot" href="screenshots/desktop-report.png">
+            <img
+              src="screenshots/desktop-report.png"
+              width="1280"
+              height="860"
+              alt="An inventory report: a summary, then the entries to check, grouped by how much they matter."
+            />
+          </a>
+          <div class="exhibit-note">
+            <p>
+              Every two weeks or once a month, the entries to check come together in one
+              report. It downloads as a PDF for whoever does the books.
+            </p>
+          </div>
+        </div>
+
+        <div class="exhibit">
+          <div class="phones">
+            <a class="shot" href="screenshots/phone-dashboard.png">
+              <img
+                src="screenshots/phone-dashboard.png"
+                width="390"
+                height="844"
+                alt="The dashboard on a phone."
+              />
+            </a>
+            <a class="shot" href="screenshots/phone-finding.png">
+              <img
+                src="screenshots/phone-finding.png"
+                width="390"
+                height="844"
+                alt="A finding on a phone, with the next step under the entry."
+              />
+            </a>
+          </div>
+          <div class="exhibit-note">
+            <p>The same store on a phone, for reading behind the counter.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="data-title">
+        <h2 id="data-title">Your data</h2>
+        <ul class="promises">
+          <li class="sum"><span>Tracking and analytics</span> <span class="figure">None</span></li>
+          <li class="sum"><span>Where it’s kept</span> <span class="figure">The shop’s computer</span></li>
+          <li class="sum"><span>Who else can see it</span> <span class="figure">Nobody</span></li>
+          <li class="sum"><span>Download all of it</span> <span class="figure">Any time</span></li>
+          <li class="sum"><span>Delete all of it</span> <span class="figure">Any time</span></li>
+        </ul>
+      </section>
+
+      <section class="section" aria-labelledby="status-title">
+        <h2 id="status-title">Where it’s at</h2>
+        <p class="section-intro">
+          RegisterIQ is in its pilot. For now it runs on realistic sample data and on sales
+          and stock files a shop exports from its till. Connecting to a till directly comes
+          next, starting with Square.
+        </p>
+        <p class="section-intro">It’s made for independent shops with one to five locations.</p>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-intro">To talk about RegisterIQ, send us an email.</p>
+        <div class="pilot-action">
+          <!-- The contact address. Replace it before sharing this page. -->
+          <a class="button" href="mailto:yourname@example.com?subject=RegisterIQ">Email us</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p>This page uses no cookies, no scripts and no tracking.</p>
+      <p>© 2026 RegisterIQ. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

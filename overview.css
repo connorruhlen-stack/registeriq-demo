@@ -1,0 +1,34 @@
+/* The demo overview: the landing page's look (styles.css) plus pictures and the
+   video. Each picture has a faint ruling edge so it sits on the paper. */
+
+.book > section > .wide {
+  grid-column: 1 / -1;
+}
+
+.shot {
+  display: block;
+  margin-top: 1.3em;
+}
+.exhibit > .shot,
+.phones > .shot {
+  margin-top: 0;
+}
+.shot img,
+.shot video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: var(--paper);
+}
+
+.phones {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 13em));
+  gap: var(--gutter);
+}
+
+.exhibit + .exhibit {
+  margin-top: 2.2em;
+}

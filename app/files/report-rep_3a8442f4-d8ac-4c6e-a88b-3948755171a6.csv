@@ -1,0 +1,2 @@
+"item","severity","detector","title","description","estimated_impact"
+"Bananas, per lb","medium","inv.duplicate_entry","Possible double entry for Bananas, per lb","Bananas, per lb shows two nearly identical delivery entries (Jul 2 at 10:24 PM and Jul 2 at 11:24 PM). If it only happened once, remove one of them.","72.00"
